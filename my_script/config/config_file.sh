@@ -1,0 +1,12 @@
+# my_script/config/config_file.sh
+
+# Fichiers de configuration
+export SSH_CONFIG_FILE="/etc/ssh/sshd_config"
+export UFW_LOG_FILE="/var/log/ufw.log"
+
+# Liste des groupes autorisés pour SSH
+export ALLOWED_GROUPS="user users root"
+
+# key ssh
+export SSH_KEY_PUB="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDNawY9lagTd+bExcs+LDatPFsJ3MdKGjrlYjrIZQTDT5gFoFXSCX3i2XbQcxLx6XlH7cO6MbwrM9VaVk1pcuDIq0hoLqZz2l0Vdcu7KOBIkdBYxfPH++aDLrLx4GILa1gJkz60x3QvI0cemikkHH/jhdK7+Q5cQ7CD4L26Q2ILP+ZmHcYQa/uiVXWWjWdv9h3PH7jDJrRyzhp6H+XpsusWj0/SmbP3yFXIHTC081o1at31tS0VsqkoaUnSsyCJ4XBlz/FfglXU5FK4Jg5g689SHNNsRs/beBPyiHEgtXlPMvtsN4Iaw+sbsF8spY/uPaomrLLybX3k4n/ZH3uUbQreiv6tzcc1/9L+Rn8bYF7frl7S0sw5RDS+pxJwn5Zkg6DXXP9L97h3sG2y0zlay37XqLiCUAOc1Duzh62ocSDCNp07tbaeowYhavTwYkh0f7PcU5/884GIzqSJLqPEo9mZTirqjZooLLsTikkXoIYTnAivclIFze1wtZRDJFwr42TN8GI+0sa0Kij1NxKzfhtQCobeBEyJ/UGMHV+8CyJ9+bWuuaSFKBgywKer/oSD+flzFrHNI2Q0pwU6PTJZEX44kdEY22W65vxGzssOUbMbgeBzzUYVkOYaIuiKWUm1QH5imnWgcy4w9EeiSY9dj8q8QoZKZI+Qg/o17095Zvi1Ew== pierre@archeasygpt
+"
