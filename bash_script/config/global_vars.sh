@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Color codes for pimping the script (to use with echo) :
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+MAGENTA='\033[0;35m'
+CYAN='\033[0;36m'
+NC='\033[0m' # No Color
+
+# SSH Vars
+PUBLIC_KEY="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQClp+d2Cbt8HXiEmb+zoucL6JJsm7jRzeVl8JooSvNUuaOfw1f2WvATbHBz25+hzTnIqs3g45yIJ3s3DHI3Yc2d54cz03TGcyIZxIZ/hoWsNDEMYgdGouebShMuHPpq93pvdor8WpxxdxC7T/qJ4/OC2lPBu/Gwh6OZuYuOBKeAlVyI6639itVZNScvyShptoe6YmYLmEj4rlXKYEekWtHKgHQVmOFXUhtGFpCqArcZ00FyGxtAaZ41SEmP5Iv1SrTaEpOPI0HnL2oBu7qqX1IQKZZJnUeXABPSJ+pLmL7Zikho7Nnnb0MXq8f1x2hUnHYNg24BW8z1odfOLqb9qFeICaCf14VgwR10IEe/w186QKfOP/bUN3Q7dDjMQsW7ANtk1jb7RzkeuXcWMzYRppOyANUk9IfqdqUNp+JO13+6sRa6X6mFc1wdOdYz0TXIkhfKFzbO04bX4ELmLYXF7CspePdhFkNd1AcG3OHmM8gi7YnLbos5nsfp7cx2GK7UA462UxEPeQwTJ8mQ3kLUgDK6AW5sVDmKzofxu7FJDhwkNAlLRGQnrncf77wxqNOK0ec+xJwgYz8aWclr/+Rk6OBUalEhJgQivNI0fx7r+nsW0gWbaDJu5kDwsXINO+j0MOUSJqyiLwiO1/IcJM8JMNLDn++7yWjNrBBCuT7uKoyuNQ== gon@sinje-massif"
+SSH_DIR="/home/gon/.ssh"
+SSH_CONFIG_FILE="/etc/ssh/sshd_config"
+TARGET_USER="gon"
+ALLOWED_IPS=(
+    "192.168.1.0/24"
+    "78.244.59.149"
+    "10.213.0.0/16"
+    "192.168.122.0/24"
+)
